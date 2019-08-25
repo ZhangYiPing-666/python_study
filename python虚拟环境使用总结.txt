@@ -1,0 +1,18 @@
+1、安装
+	pip install virtualenv
+	pip install virtualenvwrapper-win
+
+2、修改虚拟环境存放路径
+	Scripts\mkvirtualenv.bat，25行默认存储路径
+
+3、创建虚拟环境
+	mkvirtualenv 环境名称
+
+4、查看虚拟环境列表
+	workon
+
+5、进入虚拟环境
+	workon 环境名称
+
+6、删除虚拟环境
+	rmvirtualenv 环境名称
